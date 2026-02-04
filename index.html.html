@@ -1295,7 +1295,7 @@
             <div class="footer-section">
                 <h4>Support</h4>
                 <ul class="footer-links">
-                    <li><a href="mailto:support@continuumcareapp.com">Help Center</a></li>
+                    <li><a href="support.html">Help Center</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -1311,7 +1311,7 @@
         </div>
     </footer>
 
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
         // Initialize Lucide icons
         lucide.createIcons();
 
@@ -1348,9 +1348,4 @@
         document.querySelectorAll('.feature-card, .step, .testimonial, .pricing-card').forEach((el, index) => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(40px)';
-            el.style.transition = `opacity 0.8s ease-out ${index * 0.1}s, transform 0.8s ease-out ${index * 0.1}s`;
-            observer.observe(el);
-        });
-    </script>
-</body>
-</html>
+            el.style.transition 
